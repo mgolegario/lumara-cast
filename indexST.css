@@ -20,15 +20,9 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 83px;
-    transition: all 300ms;
 
 }
 
-.logoLC:hover {
-
-    transform: scale(1.05);
-
-}
 
 .botaoStart {
 
@@ -58,5 +52,27 @@
 
 .botaoStart:hover {
     transform: scale(1.06);
+
+}
+
+
+
+/* LOGIN */
+
+.logo_LC {
+
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: -38px;
+    transform: scale(0.68);
+    transition: all 300ms;
+
+}
+
+.logo_LC:hover {
+
+    transform: scale(0.73);
 
 }
