@@ -9,6 +9,7 @@
     position: relative;
     top: 113px;
     font-size: 40px;
+    font-weight: 400;
     text-align: center;
     color: #FFFFFF;
 
@@ -62,17 +63,28 @@
 .logo_LC {
 
     display: block;
+    block-size: 270px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    top: -38px;
-    transform: scale(0.68);
+    top: 25px;
     transition: all 300ms;
 
 }
 
 .logo_LC:hover {
 
-    transform: scale(0.73);
+    transform: scale(1.05);
+
+}
+
+.textoPequeno {
+
+    position: relative;
+    top: 430px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
 
 }
